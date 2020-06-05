@@ -1,19 +1,20 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+  siteTitle: 'Hi! I\'m Edgars!',
+  siteDescription: `My online site to showcase me and what I've been up to`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
-  authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorName: 'Edgars Avenins',
+  githubUsername: 'edgars-avenins',
+  authorAvatar: '/images/avatar.jpg',
+  authorDescription: `I am a full-stack web developer with a background in logistics who recently up-skilled in web development for a change
+  of career. While doing work in different fields of the industry I have always been drawn back to problem-solving and
+  improving processes. Therefore, I have been self-learning web development for two years while also working full-time
+  shift work. I was certain of this transition as being challenged by complex problems and seeing that there are so many
+  solutions to the same problem just brings me pure joy. Recently I graduated from Enspiral Dev Academy and now I am
+  looking for an opportunity to make a difference and grow.`,
   skills: [
     {
       name: 'HTML',
-      level: 70
+      level: 75
     },
     {
       name: 'CSS',
@@ -21,14 +22,34 @@ module.exports = {
     },
     {
       name: 'Javascript',
-      level: 50
-    },
-    {
-      name: 'NodeJs',
-      level: 40
+      level: 65
     },
     {
       name: 'React',
+      level: 80
+    },
+    {
+      name: 'Angular',
+      level: 45
+    },
+    {
+      name: 'Redux',
+      level: 60
+    },
+    {
+      name: 'NodeJs',
+      level: 65
+    },
+    {
+      name: 'Express',
+      level: 70
+    },
+    {
+      name: 'RESTful APIs',
+      level: 75
+    },
+    {
+      name: 'Unit testing',
       level: 60
     },
     {
@@ -40,68 +61,67 @@ module.exports = {
   jobs: [
     /* more portifolio items here */
     {
-      company: "Gympass",
+      company: "Enspiral Dev Academy",
       begin: {
-        month: 'sep',
-        year: '2019'
+        month: 'mar',
+        year: '2020'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
+      duration: 'present',
+      occupation: "Bootcamp Facilitator",
+      description: "Support students through bootcamp by guiding them on the right path and explaining programming concepts."
   
     },  {
-      company: "Lendico",
+      company: "Enspiral Dev Academy",
       begin: {
-        month: 'apr',
-        year: '2018'
+        month: 'Oct',
+        year: '2019'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
+      duration: '3 mon',
+      occupation: "Student Web Developer",
+      description: "Learning through simulated work environment I followed Agile practices and was challenged by new technologies constantly."
   
     }, {
-      company: "Anapro",
+      company: "Bosspac",
       begin: {
-        month: 'dec',
-        year: '2016'
+        month: 'jan',
+        year: '2019'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
-        year: '2012'
-      },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
+      duration: '5 mon',
+      occupation: "Intern Web Developer",
+      description: `Bosspac is an accounting platform where my main task was to fix bugs and familiarize myself with the
+      codebase which helped me to learn how to ask good questions.`
     },
   ],
   portifolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: "/images/map.png",
+      description: "Foraged & Found",
+      url: "https://github.com/edgars-avenins/where-the-goods-at",
+      live: "https://foraged-and-found.herokuapp.com/#/"
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: "/images/robot.png",
+      description: "XML data",
+      url: "https://github.com/edgars-avenins/honey-pot",
+      live: "https://xml-data.herokuapp.com/#/"
+    },
+    {
+      image: "/images/workout.png",
+      description: "Flex Time",
+      url: "https://github.com/edgars-avenins/workout-app",
+      live: "http://flex-time.herokuapp.com/#/"
     },
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "https://twitter.com/hashtag/climatechange",
+    linkedin: "https://www.linkedin.com/in/edgars-avenins",
+    github: "https://github.com/edgars-avenins",
+    email: "edgars.avenins@gmail.com"
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteCover: '/images/cover.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
@@ -113,7 +133,7 @@ module.exports = {
       url: '/',
     },
     {
-      label: 'Portifolio',
+      label: 'Portfolio',
       url: '/portifolio',
     }
   ]

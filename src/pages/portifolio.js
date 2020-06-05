@@ -30,7 +30,7 @@ const JobCard = styled.a`
 `
 
 const Portifolio = ({ className, location }) => {
-  const title = "Portifolio"
+  const title = "Portfolio"
   const { keywords, portifolio } = siteConfig
   return (
     <Layout location={location}>
@@ -57,8 +57,9 @@ const Portifolio = ({ className, location }) => {
                   href={job.url}
                   target="_blank"
                 >
+                  
                   <Image src={withPrefix(job.image)} />
-                  <p>{job.description}</p>
+                  <p>{job.description} live <a href={job.live}>here</a></p>
                 </JobCard>
               </Col>
             ))}

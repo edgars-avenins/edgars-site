@@ -5,12 +5,7 @@ module.exports = {
   authorName: 'Edgars Avenins',
   githubUsername: 'edgars-avenins',
   authorAvatar: '/images/avatar.jpg',
-  authorDescription: `I am a full-stack web developer with a background in logistics who recently up-skilled in web development for a change
-  of career. While doing work in different fields of the industry I have always been drawn back to problem-solving and
-  improving processes. Therefore, I have been self-learning web development for two years while also working full-time
-  shift work. I was certain of this transition as being challenged by complex problems and seeing that there are so many
-  solutions to the same problem just brings me pure joy. Recently I graduated from Enspiral Dev Academy and now I am
-  looking for an opportunity to make a difference and grow.`,
+  authorDescription: `I am a full-stack web developer with a background in logistics, forestry, construction, demolition, engine maintenance and thanks to all these jobs I'm now here. I work as a bootcamp facilitator at Enspiral Dev Academy. I love how this work has challenged me to step out of my comfort zone and do things that I never thought I would. Every day brings a new challenge, a new opportunity to build closer relationships with the team and students. I'm in the cycle of growth thanks to stepping out there.`,
   skills: [
     {
       name: 'HTML',
@@ -18,19 +13,15 @@ module.exports = {
     },
     {
       name: 'CSS',
-      level: 60
-    },
-    {
-      name: 'Javascript',
       level: 65
     },
     {
-      name: 'React',
-      level: 80
+      name: 'Javascript',
+      level: 75
     },
     {
-      name: 'Angular',
-      level: 45
+      name: 'React/Hooks',
+      level: 80
     },
     {
       name: 'Redux',
@@ -42,6 +33,10 @@ module.exports = {
     },
     {
       name: 'Express',
+      level: 75
+    },
+    {
+      name: 'SQLite',
       level: 70
     },
     {
@@ -68,7 +63,7 @@ module.exports = {
       },
       duration: 'present',
       occupation: "Bootcamp Facilitator",
-      description: "Support students through bootcamp by guiding them on the right path and explaining programming concepts."
+      description: "Faciliate students from the moment they start learning up to graduating them in the World. Supporting them through the EDA journey both technically and mentally."
   
     },  {
       company: "Enspiral Dev Academy",

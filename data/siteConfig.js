@@ -5,7 +5,7 @@ module.exports = {
   authorName: 'Edgars Avenins',
   githubUsername: 'edgars-avenins',
   authorAvatar: '/images/avatar.jpg',
-  authorDescription: `I am a full-stack web developer with a background in logistics, forestry, construction, demolition, engine maintenance and thanks to all these jobs I'm now here. I work as a bootcamp facilitator at Enspiral Dev Academy. I love how this work has challenged me to step out of my comfort zone and do things that I never thought I would. Every day brings a new challenge, a new opportunity to build closer relationships with the team and students. I'm in the cycle of growth thanks to stepping out there.`,
+  authorDescription: `I am a full-stack web developer with a background in logistics, forestry, construction, demolition, engine maintenance and thanks to all these jobs I'm now here. I worked as a bootcamp facilitator at Enspiral Dev Academy. In my most recent move further into IT World I landed an internship at Snapper Services Ltd. This has been a wonderful insight in all the movings bits and pieces that make things happen.`,
   skills: [
     {
       name: 'Web Fundamentals',

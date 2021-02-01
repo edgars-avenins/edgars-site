@@ -8,20 +8,16 @@ module.exports = {
   authorDescription: `I am a full-stack web developer with a background in logistics, forestry, construction, demolition, engine maintenance and thanks to all these jobs I'm now here. I work as a bootcamp facilitator at Enspiral Dev Academy. I love how this work has challenged me to step out of my comfort zone and do things that I never thought I would. Every day brings a new challenge, a new opportunity to build closer relationships with the team and students. I'm in the cycle of growth thanks to stepping out there.`,
   skills: [
     {
-      name: 'HTML',
-      level: 75
-    },
-    {
-      name: 'CSS',
-      level: 65
-    },
-    {
-      name: 'Javascript',
+      name: 'Web Fundamentals',
       level: 75
     },
     {
       name: 'React/Hooks',
       level: 80
+    },
+    {
+      name: 'Angular 10',
+      level: 50
     },
     {
       name: 'Redux',
@@ -32,12 +28,20 @@ module.exports = {
       level: 65
     },
     {
+      name: 'Java',
+      level: 60
+    },
+    {
       name: 'Express',
       level: 75
     },
     {
       name: 'SQLite',
       level: 70
+    },
+    {
+      name: 'MySQL',
+      level: 65
     },
     {
       name: 'RESTful APIs',
@@ -47,21 +51,27 @@ module.exports = {
       name: 'Unit testing',
       level: 60
     },
-    {
-      name: 'Git',
-      level: 70
-    },
     /* more skills here */
   ],
   jobs: [
     /* more portifolio items here */
     {
+      company: "Snapper Services Ltd.",
+      begin: {
+        month: 'nov',
+        year: '2020'
+      },
+      duration: 'current',
+      occupation: "Web Development Intern",
+      description: "Build productys and services that help you and me and businesses run better, faster, more efficiently!"
+  
+    }, {
       company: "Enspiral Dev Academy",
       begin: {
         month: 'mar',
         year: '2020'
       },
-      duration: 'present',
+      duration: '8 mon',
       occupation: "Bootcamp Facilitator",
       description: "Faciliate students from the moment they start learning up to graduating them in the World. Supporting them through the EDA journey both technically and mentally."
   

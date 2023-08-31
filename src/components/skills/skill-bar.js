@@ -5,9 +5,9 @@ const SkillBar = ({ className, name, level }) => {
   return (
     <div className={className}>
       <label htmlFor={`${name}-bar`}>{name}</label>
-      <div id={`${name}-bar`} className='skill__bar'>
+      {/* <div id={`${name}-bar`} className='skill__bar'>
         <div className='skill__level'></div>
-      </div>
+      </div> */}
     </div>
   )
 }

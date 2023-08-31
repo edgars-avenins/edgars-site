@@ -5,11 +5,14 @@ module.exports = {
   authorName: 'Edgars Avenins',
   githubUsername: 'edgars-avenins',
   authorAvatar: '/images/avatar.jpg',
-  authorDescription: `I am a full-stack web developer with a background in logistics, forestry, construction, demolition, engine maintenance and thanks to all these jobs I'm now here. I worked as a bootcamp facilitator at Enspiral Dev Academy. In my most recent move further into IT World I landed an internship at Snapper Services Ltd. This has been a wonderful insight in all the movings bits and pieces that make things happen.`,
+  authorDescription: `I am Edgars, a full-stack developer with 2 years of industry experience. I am passionate about creating impactful, human-oriented, and high-performing web applications. I use modern technologies including Angular, Java, SQL, and AWS. I am also passionate about good engineering practices, knowledge exchange, and fostering positive connections.
+  <br><br>
+  In addition to my development skills, I am also a hands-on parent. I took over primary childcare from my partner to be with my son. I have demonstrated exceptional organizational skills in managing household responsibilities and schedules. I have developed effective multitasking abilities while balancing childcare, household tasks, and other family commitments. I have cultivated patience, adaptability, and problem-solving skills through handling various daily challenges. I maintain a high level of responsibility, reliability, and commitment to family well-being.
+  <br><br>            
+  I am a highly motivated and results-oriented individual. I am always looking for new challenges and opportunities to learn and grow. I am confident that I have the skills and experience to be a valuable asset to your team.`,
   skills: [
     {
-      name: 'Web Fundamentals',
-      level: 75
+      name: 'Web Fundamentals'
     },
     {
       name: 'React/Hooks',
@@ -51,17 +54,40 @@ module.exports = {
       name: 'Unit testing',
       level: 60
     },
+    {
+      name: 'AWS',
+      level: 60
+    },
+    {
+      name: 'Kotlin',
+      level: 60
+    },
+    {
+      name: 'Agile',
+      level: 60
+    },
     /* more skills here */
   ],
   jobs: [
     /* more portifolio items here */
+    {
+      company: "Baby Boss Ltd.",
+      begin: {
+        month: 'Feb',
+        year: '2022'
+      },
+      duration: 'current',
+      occupation: "24/7 Customer Support",
+      description: "Tookover primary care of a little curious creature. Did lots of fun activities together and overall probably made the best decision up to date in my life."
+  
+    },
     {
       company: "Snapper Services Ltd.",
       begin: {
         month: 'nov',
         year: '2020'
       },
-      duration: 'current',
+      duration: '15 mon',
       occupation: "Web Development Intern",
       description: "Build productys and services that help you and me and businesses run better, faster, more efficiently!"
   
@@ -119,7 +145,6 @@ module.exports = {
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/hashtag/climatechange",
     linkedin: "https://www.linkedin.com/in/edgars-avenins",
     github: "https://github.com/edgars-avenins",
     email: "edgars.avenins@gmail.com"
@@ -136,10 +161,6 @@ module.exports = {
     {
       label: 'Home',
       url: '/',
-    },
-    {
-      label: 'Portfolio',
-      url: '/portifolio',
     }
   ]
 }

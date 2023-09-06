@@ -88,8 +88,8 @@ module.exports = {
         year: '2020'
       },
       duration: '15 mon',
-      occupation: "Web Development Intern",
-      description: "Build productys and services that help you and me and businesses run better, faster, more efficiently!"
+      occupation: "Software Engineer",
+      description: "Build products and services that help you and me and businesses run better, faster, more efficiently!"
   
     }, {
       company: "Enspiral Dev Academy",
